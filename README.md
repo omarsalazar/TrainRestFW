@@ -1,15 +1,12 @@
 # TrainRestFW
 Versión arrglada de RestFrameworkTraining
 
-# RestFrameworkTraining
-Training API Rest uwu
-
 ### Guía de instalación.
 
 #### Clona el proyecto.
 ```
-git clone https://github.com/omarsalazar/RestFrameworkTraining
-cd RestFrameworkTraining
+git clone https://github.com/omarsalazar/TrainRestFW
+cd TrainRestFW
 ```
 
 #### Entorno virtual
