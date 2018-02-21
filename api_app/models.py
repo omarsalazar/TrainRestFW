@@ -10,7 +10,7 @@ from django.contrib.auth.models import BaseUserManager
 class UserProfileManager(BaseUserManager):
     """Helps Django work with our costume user model"""
 
-    def create_user(self, name, email, password):
+    def create_user(self, email, name, password):
         """Creates a new user profile object"""
 
         if not email:
