@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'api_app',
 ]
 
@@ -46,7 +47,9 @@ ROOT_URLCONF = 'APIRestFW.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -116,3 +119,7 @@ STATICFILES_DIRS = [
 ]
 
 AUTH_USER_MODEL = 'api_app.UserProfile'
+
+REST_FRAMEWORK = {
+    
+}
