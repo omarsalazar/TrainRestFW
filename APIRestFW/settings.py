@@ -119,7 +119,3 @@ STATICFILES_DIRS = [
 ]
 
 AUTH_USER_MODEL = 'api_app.UserProfile'
-
-REST_FRAMEWORK = {
-    
-}
